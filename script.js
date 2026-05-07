@@ -110,17 +110,8 @@ if (menuButton && mobileMenu) {
   const no = document.getElementById("noBtn");
   if (!modal || !yes || !no) return;
 
-  const storageKey = "ageConfirmed";
+  const storageKey = "adalya_age_verified";
   const body = document.body;
-  const cookieMaxAge = 60 * 60 * 24 * 30;
-
-  function readCookie() {
-    return document.cookie
-      .split(";")
-      .map((entry) => entry.trim())
-      .find((entry) => entry.startsWith(`${storageKey}=`))
-      ?.split("=")[1];
-  }
 
   function readConfirmation() {
     try {
@@ -128,20 +119,19 @@ if (menuButton && mobileMenu) {
         return true;
       }
     } catch (error) {
-      // Fall through to cookie and in-memory checks.
+      // Fall through to the in-memory check if storage is unavailable.
     }
 
-    return readCookie() === "true" || modal.dataset.confirmed === "true";
+    return modal.dataset.confirmed === "true";
   }
 
   function writeConfirmation(value) {
     modal.dataset.confirmed = String(value);
-    document.cookie = `${storageKey}=${value}; path=/; max-age=${cookieMaxAge}; SameSite=Lax`;
 
     try {
       window.localStorage.setItem(storageKey, String(value));
     } catch (error) {
-      // Ignore storage failures and fall back to the cookie/in-memory flags.
+      // Ignore storage failures and fall back to the in-memory flag.
     }
   }
 
