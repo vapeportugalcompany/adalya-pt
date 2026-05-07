@@ -1014,11 +1014,14 @@ section {
 
 .footer-cities li {
   break-inside: avoid;
+  min-width: 0;
 }
 
 .footer-cities li a {
   display: flex;
   align-items: center;
+  width: 100%;
+  min-width: 0;
   min-height: 46px;
   padding: 0.8rem 1rem;
   border-radius: 16px;
@@ -1029,9 +1032,8 @@ section {
   border: 1px solid rgba(148, 163, 184, 0.12);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
   transition: transform 0.2s ease, color 0.15s ease, border-color 0.2s ease, background 0.2s ease;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .footer-cities li a:hover {
@@ -1191,7 +1193,24 @@ section {
     font-size: 0.66rem;
   }
 
+  .footer-shell {
+    padding: 22px 16px;
+    border-radius: 28px 28px 0 0;
+  }
+
+  .footer-cities-section {
+    margin: 2rem 0;
+  }
+
+  .cities-toggle {
+    justify-content: space-between;
+    padding: 1rem 0;
+    text-align: left;
+  }
+
   .footer-cities {
     grid-template-columns: 1fr;
+    gap: 0.7rem;
+    padding-top: 0.85rem;
   }
 }
