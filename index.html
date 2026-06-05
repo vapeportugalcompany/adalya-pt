@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-PT">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adalya - Vapes Descartáveis em Portugal</title>
-  <meta name="description" content="Compra Adalya Vape Descartável em Portugal. Modelos de 3.5K até 40K tragadas com sabores intensos, design premium e experiência moderna de cigarro eletrónico descartável. Descobre os melhores vapes descartáveis na tua vape shop online.">
+  <meta name="description" content="Página informativa em português sobre a coleção Adalya em Portugal, com modelos, sabores e links para consultar os produtos disponíveis no vapeportugal.pt.">
+  <link rel="canonical" href="https://adalya.pt/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:title" content="Adalya - Vapes Descartáveis em Portugal">
+  <meta property="og:description" content="Página informativa em português sobre a coleção Adalya em Portugal, com modelos, sabores e links para consultar os produtos disponíveis no vapeportugal.pt.">
+  <meta property="og:image" content="https://adalya.pt/web-app-manifest-512x512.png">
+  <meta property="og:url" content="https://adalya.pt/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_PT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Adalya - Vapes Descartáveis em Portugal">
+  <meta name="twitter:description" content="Página informativa em português sobre a coleção Adalya em Portugal, com modelos, sabores e links para consultar os produtos disponíveis no vapeportugal.pt.">
+  <meta name="twitter:image" content="https://adalya.pt/web-app-manifest-512x512.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
@@ -17,64 +29,45 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "OnlineStore",
+        "@type": "Organization",
         "@id": "https://adalya.pt/#organization",
         "name": "Adalya.pt",
+        "description": "Adalya.pt é uma página informativa em português que apresenta modelos, coleções e links relacionados com produtos disponíveis em vapeportugal.pt.",
         "url": "https://adalya.pt/",
         "logo": "https://adalya.pt/favicon-96x96.png",
         "image": "https://adalya.pt/web-app-manifest-512x512.png",
-        "description": "Compra Adalya Vape Descartável em Portugal. Modelos de 3.5K até 40K tragadas com sabores intensos, design premium e experiência moderna de cigarro eletrónico descartável.",
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "telephone": "+351935718678",
-            "email": "info@vapeportugal.pt",
-            "contactType": "customer service",
-            "areaServed": "PT",
-            "availableLanguage": "pt"
-          }
-        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+351935718678",
+          "email": "info@vapeportugal.pt",
+          "contactType": "customer support via vapeportugal.pt",
+          "areaServed": "PT",
+          "availableLanguage": "pt-PT"
+        },
         "areaServed": {
           "@type": "Country",
           "name": "Portugal"
         },
-        "availableLanguage": "pt"
+        "availableLanguage": "pt-PT"
       },
       {
         "@type": "WebSite",
         "@id": "https://adalya.pt/#website",
-        "name": "Adalya.pt - Vapes Descartáveis em Portugal",
+        "name": "Adalya.pt",
         "url": "https://adalya.pt/",
         "publisher": {
           "@id": "https://adalya.pt/#organization"
         },
-        "inLanguage": "pt"
-      },
-      {
-        "@type": "CollectionPage",
-        "@id": "https://adalya.pt/#webpage",
-        "url": "https://adalya.pt/",
-        "name": "Adalya - Vapes Descartáveis em Portugal",
-        "description": "Compra Adalya Vape Descartável em Portugal. Modelos de 3.5K até 40K tragadas com sabores intensos, design premium e experiência moderna de cigarro eletrónico descartável.",
-        "isPartOf": {
-          "@id": "https://adalya.pt/#website"
-        },
-        "about": {
-          "@id": "https://adalya.pt/#organization"
-        },
-        "mainEntity": {
-          "@id": "https://adalya.pt/#itemlist"
-        },
-        "inLanguage": "pt"
+        "inLanguage": "pt-PT"
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://adalya.pt/#breadcrumbs",
+        "@id": "https://adalya.pt/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
-            "name": "Página principal",
+            "name": "Página inicial",
             "item": "https://adalya.pt/"
           },
           {
@@ -86,499 +79,187 @@
         ]
       },
       {
+        "@type": "CollectionPage",
+        "@id": "https://adalya.pt/#collection",
+        "url": "https://adalya.pt/",
+        "name": "Vape Descartável Adalya",
+        "description": "Página informativa em português sobre a coleção Adalya, com modelos, sabores e links para consultar produtos no vapeportugal.pt.",
+        "isPartOf": {
+          "@id": "https://adalya.pt/#website"
+        },
+        "about": {
+          "@id": "https://adalya.pt/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://adalya.pt/#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://adalya.pt/#itemlist"
+        },
+        "inLanguage": "pt-PT"
+      },
+      {
         "@type": "ItemList",
         "@id": "https://adalya.pt/#itemlist",
-        "name": "Vapes descartáveis Adalya",
-        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "name": "Lista de modelos apresentados nesta página",
         "numberOfItems": 18,
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADL PRO 360 - Grape",
-              "image": "https://adalya.pt/img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Grape-20000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADL PRO 360 Grape com 20000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Grape"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "20000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADL PRO 360 - Grape",
+            "url": "https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADL PRO 360 - Hawaii",
-              "image": "https://adalya.pt/img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Hawaii-20000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADL PRO 360 Hawaii com 20000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Hawaii"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "20000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADL PRO 360 - Hawaii",
+            "url": "https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 3,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADL PRO 360 - Menthol",
-              "image": "https://adalya.pt/img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Menthol-20000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADL PRO 360 Menthol com 20000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Menthol"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "20000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADL PRO 360 - Menthol",
+            "url": "https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 4,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADL16000 - Blue Ice",
-              "image": "https://adalya.pt/img/Adalya-16K-Vape-Descartável-Portugal-Blue-Ice-16000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADL16000 Blue Ice com 16000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Blue Ice"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "16000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADL16000 - Blue Ice",
+            "url": "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 5,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADL16000 - Chewing Gummelon",
-              "image": "https://adalya.pt/img/Adalya-16K-Vape-Descartável-Portugal-Chewing-Gummelon-16000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADL16000 Chewing Gummelon com 16000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Chewing Gummelon"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "16000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADL16000 - Chewing Gummelon",
+            "url": "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 6,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADL16000 - Lady Killer",
-              "image": "https://adalya.pt/img/Adalya-16K-Vape-Descartável-Portugal-Lady-Killer-16000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADL16000 Lady Killer com 16000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Lady Killer"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "16000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADL16000 - Lady Killer",
+            "url": "https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 7,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya Aurora 40K - Lady Killer",
-              "image": "https://adalya.pt/img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Lady-Killer-40000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya Aurora 40K Lady Killer com 40000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Lady Killer"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "40000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya Aurora 40K - Lady Killer",
+            "url": "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 8,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya Aurora 40K - Love 66",
-              "image": "https://adalya.pt/img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Love-66-40000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya Aurora 40K Love 66 com 40000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Love 66"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "40000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya Aurora 40K - Love 66",
+            "url": "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 9,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya Aurora 40K - Punkman",
-              "image": "https://adalya.pt/img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Punkman-40000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya Aurora 40K Punkman com 40000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Punkman"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "40000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya Aurora 40K - Punkman",
+            "url": "https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 10,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya 10K - Cola Dragon",
-              "image": "https://adalya.pt/img/Adalya-10K-Vape-Descartável-Portugal-Cola-Dragon-10000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya 10K Cola Dragon com 10000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Cola Dragon"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "10000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya 10K - Cola Dragon",
+            "url": "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 11,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya 10K - Hawaii",
-              "image": "https://adalya.pt/img/Adalya-10K-Vape-Descartável-Portugal-Hawaii-10000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya 10K Hawaii com 10000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Hawaii"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "10000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya 10K - Hawaii",
+            "url": "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 12,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya 10K - Strawberry Splash",
-              "image": "https://adalya.pt/img/Adalya-10K-Vape-Descartável-Portugal-Strawberry-Splash-10000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya 10K Strawberry Splash com 10000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Strawberry Splash"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "10000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya 10K - Strawberry Splash",
+            "url": "https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 13,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya AD 3500 - Orange Lemonade",
-              "image": "https://adalya.pt/img/Adalya-AD-3500-Vape-Descartável-Portugal-Orange-Lemonade-3500-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya AD 3500 Orange Lemonade com 3500 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Orange Lemonade"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "3500"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya AD 3500 - Orange Lemonade",
+            "url": "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 14,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya AD 3500 - Grape Mint",
-              "image": "https://adalya.pt/img/Adalya-AD-3500-Vape-Descartável-Portugal-Grape-Mint-3500-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya AD 3500 Grape Mint com 3500 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Grape Mint"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "3500"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya AD 3500 - Grape Mint",
+            "url": "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 15,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya AD 3500 - Berlin Nights",
-              "image": "https://adalya.pt/img/Adalya-AD-3500-Vape-Descartável-Portugal-Berlin-Nights-3500-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya AD 3500 Berlin Nights com 3500 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Berlin Nights"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "3500"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya AD 3500 - Berlin Nights",
+            "url": "https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 16,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADC25000 - Grape Berry",
-              "image": "https://adalya.pt/img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Grape-Berry-25000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADC25000 Grape Berry com 25000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Grape Berry"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "25000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADC25000 - Grape Berry",
+            "url": "https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 17,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADC25000 - Moscow Evenings",
-              "image": "https://adalya.pt/img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Moscow-Evenings-25000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADC25000 Moscow Evenings com 25000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Moscow Evenings"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "25000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADC25000 - Moscow Evenings",
+            "url": "https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal"
           },
           {
             "@type": "ListItem",
             "position": 18,
-            "item": {
-              "@type": "Product",
-              "name": "Cigarros Eletrónicos Adalya ADC25000 - Pineapple Slice",
-              "image": "https://adalya.pt/img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Pineapple-Slice-25000-Tragadas.png",
-              "url": "https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal",
-              "brand": {
-                "@type": "Brand",
-                "name": "Adalya"
-              },
-              "description": "Adalya ADC25000 Pineapple Slice com 25000 tragadas.",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Sabor",
-                  "value": "Pineapple Slice"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Tragadas",
-                  "value": "25000"
-                }
-              ]
-            }
+            "name": "Cigarros Eletrónicos Adalya ADC25000 - Pineapple Slice",
+            "url": "https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal"
           }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://adalya.pt/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O que é esta página?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Adalya.pt é uma página informativa em português dedicada à coleção Adalya. Aqui encontras modelos, sabores e links de referência para consultar os produtos no vapeportugal.pt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Esta página é uma loja online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. Esta página não tem carrinho, checkout nem pagamento próprio. A consulta e a compra dos produtos é feita através do vapeportugal.pt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Que modelos ou coleções são apresentados?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Esta página apresenta Adalya ADL PRO 360, ADL16000, Aurora 40K, AD10000, AD 3500 e ADC25000, com vários sabores mostrados nas cards desta página."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Onde posso consultar os produtos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Os botões e as cards desta página encaminham para a coleção Adalya e para os respetivos produtos no vapeportugal.pt."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Para quem é destinado este conteúdo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Este conteúdo destina-se a utilizadores adultos, maiores de 18 anos, que pretendem explorar modelos e sabores Adalya disponíveis para Portugal."
+            }
+          }
+        ],
+        "inLanguage": "pt-PT"
       }
     ]
   }
@@ -595,7 +276,7 @@ ou mais?</h2>
       <p>Este site contem produtos com nicotina. A nicotina e uma substancia aditiva.</p>
       <div class="age-actions">
         <button id="yesBtn" class="button button-primary" type="button">Sim, tenho 18+</button>
-        <button id="noBtn" class="button button-secondary" type="button">Nao</button>
+        <button id="noBtn" class="button button-secondary" type="button">Não</button>
       </div>
     </div>
   </div>
@@ -606,8 +287,8 @@ ou mais?</h2>
 
   <header class="site-header" id="top">
     <div class="container header-shell">
-      <a class="brand" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" aria-label="Adalya Portugal">
-        <img src="favicon-96x96.png" alt="Logo Adalya" loading="lazy">
+      <a class="brand" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer" aria-label="Adalya Portugal">
+        <img src="favicon-96x96.png" alt="Logótipo Adalya" loading="eager" decoding="async">
         <span class="brand-text">
           <strong>Adalya</strong>
           <small>Vape Descartável</small>
@@ -616,28 +297,28 @@ ou mais?</h2>
 
       <div class="header-actions">
       <nav class="desktop-nav" aria-label="Principal">
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Página principal</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Produtos</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Sobre Nos</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Blog</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Contacto</a>
+        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Coleção Adalya</a>
+        <a href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL PRO 360</a>
+        <a href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL16000</a>
+        <a href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Aurora 40K</a>
+        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Abrir no vapeportugal.pt</a>
       </nav>
-        <a class="button button-primary header-cta" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Compre já!</a>
+        <a class="button button-primary header-cta" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Ver coleção</a>
       </div>
 
-      <button class="menu-toggle" id="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+      <button class="menu-toggle" id="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
     </div>
 
-    <nav class="mobile-nav" id="mobile-menu" aria-label="Móvil">
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Página principal</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Produtos</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Sobre Nos</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Blog</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Contacto</a>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Móvel">
+        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Coleção Adalya</a>
+        <a href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL PRO 360</a>
+        <a href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL16000</a>
+        <a href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Aurora 40K</a>
+        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Abrir no vapeportugal.pt</a>
     </nav>
   </header>
 
@@ -649,11 +330,11 @@ ou mais?</h2>
           <h1>Vape Descartável <span>Adalya</span></h1>
           <p class="hero-text">
             Descobre a linha Adalya desde 3.5K até 40K tragadas, com perfis de sabores de vape intensos,
-             acabamentos premium e uma experiência de cigarro eletrónico descartável mais limpa, moderna e confortável no universo do vape Portugal.
+             acabamentos premium e uma visão informativa da coleção para utilizadores em Portugal que procuram consultar modelos e sabores no vapeportugal.pt.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Compre já!</a>
-            <a class="button button-secondary" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Explorar coleção</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Ver no vapeportugal.pt</a>
+            <a class="button button-secondary" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Explorar coleção</a>
           </div>
           <ul class="hero-metrics">
             <li><strong>6</strong><span>Séries em destaque</span></li>
@@ -668,7 +349,7 @@ ou mais?</h2>
             <div class="slides">
               <article class="slide tone-sky">
                 <div class="banner-placeholder banner-full">
-                  <img src="img/Adalya-16K-Vape-Descartável-Portugal.png" alt="Banner Adalya ADL16000" loading="lazy">
+                  <img src="img/Adalya-16K-Vape-Descartável-Portugal.png" alt="Banner do modelo Adalya ADL16000" loading="eager" fetchpriority="high" decoding="async">
                 </div>
                 <div class="slide-copy">
                   <p>ADL 16000</p>
@@ -678,7 +359,7 @@ ou mais?</h2>
               </article>
               <article class="slide tone-lime">
                 <div class="banner-placeholder banner-full">
-                  <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-20000-Tragadas.png" alt="Banner Adalya ADL PRO 360 Grape" loading="lazy">
+                  <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-20000-Tragadas.png" alt="Banner do modelo Adalya ADL PRO 360 Grape" loading="lazy" decoding="async">
                 </div>
                 <div class="slide-copy">
                   <p>ADL PRO 360</p>
@@ -688,7 +369,7 @@ ou mais?</h2>
               </article>
               <article class="slide tone-coral">
                 <div class="banner-placeholder banner-full">
-                  <img src="img/Adalya-AD-Vape-Descartável-Portugal.png" alt="Banner Adalya AD" loading="lazy">
+                  <img src="img/Adalya-AD-Vape-Descartável-Portugal.png" alt="Banner do modelo Adalya AD" loading="lazy" decoding="async">
                 </div>
                 <div class="slide-copy">
                   <p>AD 3500</p>
@@ -699,7 +380,7 @@ ou mais?</h2>
             </div>
 
             <button class="slider-button prev" type="button" aria-label="Anterior">‹</button>
-            <button class="slider-button next" type="button" aria-label="Siguiente">›</button>
+            <button class="slider-button next" type="button" aria-label="Seguinte">›</button>
 
             <div class="slider-dots" id="hero-indicators">
               <button class="indicator active" type="button" data-slide="0" aria-label="Slide 1"></button>
@@ -718,7 +399,7 @@ ou mais?</h2>
             <p class="eyebrow">Produtos</p>
             <h2>Vapes descartáveis Adalya</h2>
           </div>
-          <a class="button button-secondary" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Ver mais</a>
+          <a class="button button-secondary" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Ver mais</a>
         </div>
 
         <div class="filters reveal">
@@ -733,152 +414,152 @@ ou mais?</h2>
         <div class="product-grid">
           <article class="product-card reveal" data-category="adl-pro-360">
             <div class="product-visual tone-lime product-placeholder">
-              <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Grape-20000-Tragadas.png" alt="Adalya ADL PRO 360 Grape" loading="lazy">
+              <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Grape-20000-Tragadas.png" alt="Adalya ADL PRO 360 Grape" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADL PRO 360</h3>
             <div class="product-meta"><span>Grape</span><strong>20000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adl-pro-360">
             <div class="product-visual tone-gold product-placeholder">
-              <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Hawaii-20000-Tragadas.png" alt="Adalya ADL PRO 360 Hawaii" loading="lazy">
+              <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Hawaii-20000-Tragadas.png" alt="Adalya ADL PRO 360 Hawaii" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADL PRO 360</h3>
             <div class="product-meta"><span>Hawaii</span><strong>20000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adl-pro-360">
             <div class="product-visual tone-mint product-placeholder">
-              <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Menthol-20000-Tragadas.png" alt="Adalya ADL PRO 360 Menthol" loading="lazy">
+              <img src="img/Adalya-ADL-PRO360-20K-Vape-Descartável-Portugal-Menthol-20000-Tragadas.png" alt="Adalya ADL PRO 360 Menthol" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADL PRO 360</h3>
             <div class="product-meta"><span>Menthol</span><strong>20000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
 
           <article class="product-card reveal" data-category="adl16000">
             <div class="product-visual tone-sky product-placeholder">
-              <img src="img/Adalya-16K-Vape-Descartável-Portugal-Blue-Ice-16000-Tragadas.png" alt="Adalya ADL16000 Blue Ice" loading="lazy">
+              <img src="img/Adalya-16K-Vape-Descartável-Portugal-Blue-Ice-16000-Tragadas.png" alt="Adalya ADL16000 Blue Ice" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADL16000</h3>
             <div class="product-meta"><span>Blue Ice</span><strong>16000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adl16000">
             <div class="product-visual tone-blush product-placeholder">
-              <img src="img/Adalya-16K-Vape-Descartável-Portugal-Chewing-Gummelon-16000-Tragadas.png" alt="Adalya ADL16000 Chewing Gummelon" loading="lazy">
+              <img src="img/Adalya-16K-Vape-Descartável-Portugal-Chewing-Gummelon-16000-Tragadas.png" alt="Adalya ADL16000 Chewing Gummelon" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADL16000</h3>
             <div class="product-meta"><span>Chewing Gummelon</span><strong>16000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adl16000">
             <div class="product-visual tone-coral product-placeholder">
-              <img src="img/Adalya-16K-Vape-Descartável-Portugal-Lady-Killer-16000-Tragadas.png" alt="Adalya ADL16000 Lady Killer" loading="lazy">
+              <img src="img/Adalya-16K-Vape-Descartável-Portugal-Lady-Killer-16000-Tragadas.png" alt="Adalya ADL16000 Lady Killer" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADL16000</h3>
             <div class="product-meta"><span>Lady Killer</span><strong>16000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
 
           <article class="product-card reveal" data-category="aurora-40k">
             <div class="product-visual tone-coral product-placeholder">
-              <img src="img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Lady-Killer-40000-Tragadas.png" alt="Adalya Aurora 40K Lady Killer" loading="lazy">
+              <img src="img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Lady-Killer-40000-Tragadas.png" alt="Adalya Aurora 40K Lady Killer" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya Aurora 40K</h3>
             <div class="product-meta"><span>Lady Killer</span><strong>40000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="aurora-40k">
             <div class="product-visual tone-violet product-placeholder">
-              <img src="img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Love-66-40000-Tragadas.png" alt="Adalya Aurora 40K Love 66" loading="lazy">
+              <img src="img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Love-66-40000-Tragadas.png" alt="Adalya Aurora 40K Love 66" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya Aurora 40K</h3>
             <div class="product-meta"><span>Love 66</span><strong>40000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="aurora-40k">
             <div class="product-visual tone-ice product-placeholder">
-              <img src="img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Punkman-40000-Tragadas.png" alt="Adalya Aurora 40K Punkman" loading="lazy">
+              <img src="img/Adalya-Aurora-40K-Vape-Descartável-Portugal-Punkman-40000-Tragadas.png" alt="Adalya Aurora 40K Punkman" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya Aurora 40K</h3>
             <div class="product-meta"><span>Punkman</span><strong>40000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
 
           <article class="product-card reveal" data-category="ad10000">
             <div class="product-visual tone-amber product-placeholder">
-              <img src="img/Adalya-10K-Vape-Descartável-Portugal-Cola-Dragon-10000-Tragadas.png" alt="Adalya 10K Cola Dragon" loading="lazy">
+              <img src="img/Adalya-10K-Vape-Descartável-Portugal-Cola-Dragon-10000-Tragadas.png" alt="Adalya 10K Cola Dragon" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya 10K</h3>
             <div class="product-meta"><span>Cola Dragon</span><strong>10000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="ad10000">
             <div class="product-visual tone-gold product-placeholder">
-              <img src="img/Adalya-10K-Vape-Descartável-Portugal-Hawaii-10000-Tragadas.png" alt="Adalya 10K Hawaii" loading="lazy">
+              <img src="img/Adalya-10K-Vape-Descartável-Portugal-Hawaii-10000-Tragadas.png" alt="Adalya 10K Hawaii" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya 10K</h3>
             <div class="product-meta"><span>Hawaii</span><strong>10000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="ad10000">
             <div class="product-visual tone-mint product-placeholder">
-              <img src="img/Adalya-10K-Vape-Descartável-Portugal-Strawberry-Splash-10000-Tragadas.png" alt="Adalya 10K Strawberry Splash" loading="lazy">
+              <img src="img/Adalya-10K-Vape-Descartável-Portugal-Strawberry-Splash-10000-Tragadas.png" alt="Adalya 10K Strawberry Splash" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya 10K</h3>
             <div class="product-meta"><span>Strawberry Splash</span><strong>10000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
 
           <article class="product-card reveal" data-category="adl-3500">
             <div class="product-visual tone-rose product-placeholder">
-              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal-Orange-Lemonade-3500-Tragadas.png" alt="Adalya ADL 3500 Orange Lemonade" loading="lazy">
+              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal-Orange-Lemonade-3500-Tragadas.png" alt="Adalya ADL 3500 Orange Lemonade" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya AD 3500</h3>
             <div class="product-meta"><span>Orange Lemonade</span><strong>3500 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adl-3500">
             <div class="product-visual tone-sky product-placeholder">
-              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal-Grape-Mint-3500-Tragadas.png" alt="Adalya ADL 3500 Grape Mint" loading="lazy">
+              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal-Grape-Mint-3500-Tragadas.png" alt="Adalya ADL 3500 Grape Mint" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya AD 3500</h3>
             <div class="product-meta"><span>Grape Mint</span><strong>3500 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adl-3500">
             <div class="product-visual tone-gold product-placeholder">
-              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal-Berlin-Nights-3500-Tragadas.png" alt="Adalya ADL 3500 Berlin Nights" loading="lazy">
+              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal-Berlin-Nights-3500-Tragadas.png" alt="Adalya ADL 3500 Berlin Nights" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya AD 3500</h3>
             <div class="product-meta"><span>Berlin Nights</span><strong>3500 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
 
           <article class="product-card reveal" data-category="adc25000">
             <div class="product-visual tone-violet product-placeholder">
-              <img src="img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Grape-Berry-25000-Tragadas.png" alt="Adalya ADC25000 Grape Berry" loading="lazy">
+              <img src="img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Grape-Berry-25000-Tragadas.png" alt="Adalya ADC25000 Grape Berry" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADC25000</h3>
             <div class="product-meta"><span>Grape Berry</span><strong>25000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adc25000">
             <div class="product-visual tone-ice product-placeholder">
-              <img src="img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Moscow-Evenings-25000-Tragadas.png" alt="Adalya ADC25000 Moscow Evenings" loading="lazy">
+              <img src="img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Moscow-Evenings-25000-Tragadas.png" alt="Adalya ADC25000 Moscow Evenings" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADC25000</h3>
             <div class="product-meta"><span>Moscow Evenings</span><strong>25000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
           <article class="product-card reveal" data-category="adc25000">
             <div class="product-visual tone-amber product-placeholder">
-              <img src="img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Pineapple-Slice-25000-Tragadas.png" alt="Adalya ADC25000 Pineapple Slice" loading="lazy">
+              <img src="img/Adalya-ADC25000-25K-Vape-Descartável-Portugal-Pineapple-Slice-25000-Tragadas.png" alt="Adalya ADC25000 Pineapple Slice" loading="lazy" decoding="async">
             </div>
             <h3>Cigarros Eletrónicos Adalya ADC25000</h3>
             <div class="product-meta"><span>Pineapple Slice</span><strong>25000 tragadas</strong></div>
-            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal">Compre já!</a>
+            <a class="button button-primary" href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Ver produto</a>
           </article>
         </div>
       </div>
@@ -936,37 +617,32 @@ ou mais?</h2>
       <div class="container">
         <div class="section-head reveal">
           <div>
-            <p class="eyebrow">Opiniões</p>
-            <h2>Clientes satisfeitos com Adalya</h2>
+            <p class="eyebrow">Destaques</p>
+            <h2>Modelos em destaque na coleção Adalya</h2>
           </div>
         </div>
 
         <div class="reviews-grid">
           <article class="review-card reveal">
             <div class="review-image-slot avatar-lime">
-              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal.jpg" alt="Adalya AD 35000" loading="lazy">
+              <img src="img/Adalya-AD-3500-Vape-Descartável-Portugal.jpg" alt="Vista do modelo Adalya AD 3500" loading="lazy" decoding="async">
             </div>
-            <p class="review-text">"Uso vapes descartáveis Adalya há algum tempo e a qualidade é excelente. 
-              Os sabores de vape são intensos e cada uma das tragadas é suave. 
-              Para mim, é um dos melhores cigarros eletrónicos descartáveis no mercado de vape Portugal."</p>
-            <div class="review-meta"><strong>João M.</strong><span>★★★★★</span></div>
+            <p class="review-text">A linha Adalya AD 3500 apresenta um formato compacto com sabores mostrados nesta página, como Orange Lemonade, Grape Mint e Berlin Nights.</p>
+            <div class="review-meta"><strong>Adalya AD 3500</strong><span>3 sabores em destaque</span></div>
           </article>
           <article class="review-card reveal">
             <div class="review-image-slot avatar-sky">
-              <img src="img/Adalya-ADL-Pro-260-20000-Vape-Descartável-Portugal.jpg" alt="Adalya ADL Pro 260 20000" loading="lazy">
+              <img src="img/Adalya-ADL-Pro-260-20000-Vape-Descartável-Portugal.jpg" alt="Vista do modelo Adalya ADL PRO 360" loading="lazy" decoding="async">
             </div>
-            <p class="review-text">"Adorei o meu vape descartável Adalya. Tem muitas tragadas, o vapor é consistente 
-              e os sabores mantêm-se até ao fim. 
-              Recomendo a todos os vapers que procuram qualidade e um bom cigarro eletrónico."</p>
-            <div class="review-meta"><strong>Inês R.</strong><span>★★★★★</span></div>
+            <p class="review-text">O modelo Adalya ADL PRO 360 reúne sabores como Grape, Hawaii e Menthol e encaminha para a respetiva página de produto no vapeportugal.pt.</p>
+            <div class="review-meta"><strong>Adalya ADL PRO 360</strong><span>20000 tragadas</span></div>
           </article>
           <article class="review-card reveal">
             <div class="review-image-slot avatar-coral">
-              <img src="img/Adalya-ADL-16000-Vape-Descartável-Portugal.jpg" alt="Adalya ADL 16000" loading="lazy">
+              <img src="img/Adalya-ADL-16000-Vape-Descartável-Portugal.jpg" alt="Vista do modelo Adalya ADL16000" loading="lazy" decoding="async">
             </div>
-            <p class="review-text">"Já experimentei vários vapes, mas os da Adalya destacam-se. Excelente autonomia, 
-              ótimos sabores de vape e um design moderno. Um cigarro eletrónico descartável perfeito para uso diário."</p>
-            <div class="review-meta"><strong>Ricardo S.</strong><span>★★★★★</span></div>
+            <p class="review-text">A seleção Adalya ADL16000 evidencia sabores como Blue Ice, Chewing Gummelon e Lady Killer para consulta rápida dentro da coleção apresentada.</p>
+            <div class="review-meta"><strong>Adalya ADL16000</strong><span>16000 tragadas</span></div>
           </article>
         </div>
       </div>
@@ -976,36 +652,65 @@ ou mais?</h2>
       <div class="container">
         <div class="section-head reveal">
           <div>
-            <p class="eyebrow">Vantagens</p>
-            <h2>Vantagens de comprar na nossa loja</h2>
+            <p class="eyebrow">Informação</p>
+            <h2>Como utilizar esta página informativa</h2>
           </div>
         </div>
 
         <div class="benefits-grid">
           <article class="benefit-card reveal">
             <div class="benefit-icon" aria-hidden="true">🛒</div>
-            <h3>Preços promocionais</h3>
-            <p>Encontras preços competitivos em vapes descartáveis Adalya. Quanto mais compras, menos pagas: 
-              ideal para revendedores e para fazer stock de cigarros eletrónicos descartáveis no mercado de vape Portugal.</p>
+            <h3>Explorar a coleção</h3>
+            <p>A navegação principal desta página encaminha para a coleção Adalya no vapeportugal.pt, onde podes consultar os produtos relacionados.</p>
           </article>
           <article class="benefit-card reveal">
             <div class="benefit-icon" aria-hidden="true">⬆️</div>
-            <h3>Marcas confiáveis</h3>
-            <p>Oferecemos as melhores marcas de cigarros eletrónicos descartáveis, como Adalya, JNR, RandM e outras. 
-              Os modelos Adalya estão entre os mais populares no segmento premium de vapes descartáveis, 
-              destacando-se pelos seus sabores de vape, elevada qualidade e excelente desempenho em tragadas.</p>
+            <h3>Consultar modelos</h3>
+            <p>Cada card apresenta um modelo Adalya, um sabor visível e o respetivo link para a página do produto no vapeportugal.pt.</p>
           </article>
           <article class="benefit-card reveal">
             <div class="benefit-icon" aria-hidden="true">🚚</div>
-            <h3>Envio rápido</h3>
-            <p>Enviamos a partir de armazéns locais. <br>
-Envio grátis. <br>
-Prazo standard: 3 a 5 dias úteis.</p>
+            <h3>Conteúdo em português</h3>
+            <p>Os textos desta página resumem a coleção Adalya para utilizadores em Portugal, mantendo os nomes originais dos modelos e sabores mostrados.</p>
           </article>
           <article class="benefit-card reveal">
             <div class="benefit-icon" aria-hidden="true">📱</div>
-            <h3>Atendimento ao cliente</h3>
-            <p>Contacto rápido por WhatsApp, além de email e telefone.</p>
+            <h3>Acesso para adultos</h3>
+            <p>O aviso sobre nicotina e a confirmação de idade continuam ativos para manter o contexto adequado de conteúdo destinado a maiores de 18 anos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="descriptions" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">FAQ</p>
+            <h2>Perguntas frequentes sobre a coleção Adalya</h2>
+          </div>
+        </div>
+
+        <div class="description-grid">
+          <article class="description-card reveal">
+            <h3>O que é esta página?</h3>
+            <p>Adalya.pt é uma página informativa em português dedicada à coleção Adalya. Aqui encontras modelos, sabores e links de referência para consultar os produtos no vapeportugal.pt.</p>
+          </article>
+          <article class="description-card reveal">
+            <h3>Esta página é uma loja online?</h3>
+            <p>Não. Esta página não tem carrinho, checkout nem pagamento próprio. A consulta e a compra dos produtos é feita através do vapeportugal.pt.</p>
+          </article>
+          <article class="description-card reveal">
+            <h3>Que modelos ou coleções são apresentados?</h3>
+            <p>Esta página apresenta Adalya ADL PRO 360, ADL16000, Aurora 40K, AD10000, AD 3500 e ADC25000, com vários sabores mostrados nas cards desta página.</p>
+          </article>
+          <article class="description-card reveal">
+            <h3>Onde posso consultar os produtos?</h3>
+            <p>Os botões e as cards desta página encaminham para a coleção Adalya e para os respetivos produtos no vapeportugal.pt.</p>
+          </article>
+          <article class="description-card reveal">
+            <h3>Para quem é destinado este conteúdo?</h3>
+            <p>Este conteúdo destina-se a utilizadores adultos, maiores de 18 anos, que pretendem explorar modelos e sabores Adalya disponíveis para Portugal.</p>
           </article>
         </div>
       </div>
@@ -1015,27 +720,27 @@ Prazo standard: 3 a 5 dias úteis.</p>
   <footer class="site-footer" id="contacto">
     <div class="container footer-shell">
       <div class="footer-top reveal">
-        <a class="brand brand-footer" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" aria-label="Adalya España">
-          <img src="favicon-96x96.png" alt="Logo Adalya" loading="lazy">
+        <a class="brand brand-footer" href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer" aria-label="Adalya Portugal">
+          <img src="favicon-96x96.png" alt="Logótipo Adalya" loading="lazy" decoding="async">
           <span class="brand-text">
             <strong>Adalya</strong>
             <small>Vape Descartável em Portugal</small>
           </span>
         </a>
         <div class="social-links">
-          <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" aria-label="Instagram">
+          <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer" aria-label="Coleção Adalya no vapeportugal.pt">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.8"></rect>
               <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
               <circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"></circle>
             </svg>
           </a>
-          <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" aria-label="Facebook">
+          <a href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer" aria-label="Modelo Adalya ADL PRO 360 no vapeportugal.pt">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M13.2 21v-7.2h2.4l.36-2.8h-2.76V9.22c0-.81.22-1.36 1.38-1.36H16V5.35c-.24-.03-1.08-.1-2.05-.1-2.03 0-3.42 1.24-3.42 3.52v2.23H8.2v2.8h2.33V21z" fill="currentColor"></path>
             </svg>
           </a>
-          <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" aria-label="TikTok">
+          <a href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer" aria-label="Modelo Adalya ADL16000 no vapeportugal.pt">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M14.55 3c.22 1.85 1.26 3.65 3.05 4.57 1.06.55 2.07.68 2.4.7v2.72c-.76-.02-2.62-.2-4.53-1.33v6.01c0 3.04-2.48 5.51-5.53 5.51S4.4 18.71 4.4 15.67s2.48-5.52 5.54-5.52c.28 0 .56.02.83.07v2.8a2.9 2.9 0 0 0-.83-.12 2.78 2.78 0 1 0 2.83 2.77V3z" fill="currentColor"></path>
             </svg>
@@ -1045,26 +750,26 @@ Prazo standard: 3 a 5 dias úteis.</p>
 
       <div class="footer-grid reveal">
         <div>
-          <h3>Productos</h3>
-          <a href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal">ADL Pro 360 20K Tragadas</a>
-          <a href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal">ADL16000 16K Tragadas</a>
-          <a href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal">Aurora 40K Tragadas</a>
-          <a href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal">AD10000 10K Tragadas</a>
-          <a href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal">AD3500 3.5K Tragadas</a>
-          <a href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal">ADC25000 25K Tragadas</a>
+          <h3>Produtos</h3>
+          <a href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL Pro 360 20K Tragadas</a>
+          <a href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL16000 16K Tragadas</a>
+          <a href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Aurora 40K Tragadas</a>
+          <a href="https://vapeportugal.pt/products/adalya-ad10000-10k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">AD10000 10K Tragadas</a>
+          <a href="https://vapeportugal.pt/products/adalya-ad3500-3500-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">AD3500 3.5K Tragadas</a>
+          <a href="https://vapeportugal.pt/products/adalya-adc25000-25k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADC25000 25K Tragadas</a>
         </div>
         <div>
           <h3>Explora</h3>
-           <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Página principal</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Produtos</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Sobre Nos</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Blog</a>
-        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Contacto</a>
+           <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Coleção Adalya</a>
+        <a href="https://vapeportugal.pt/products/adalya-adl-pro-360-20k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL PRO 360</a>
+        <a href="https://vapeportugal.pt/products/adalya-adl16000-16k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">ADL16000</a>
+        <a href="https://vapeportugal.pt/products/adalya-aurora-40k-vape-descartavel-portugal" target="_blank" rel="noopener noreferrer">Aurora 40K</a>
+        <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Abrir no vapeportugal.pt</a>
         </div>
         <div>
           <h3>Contacto</h3>
-          <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">info@vapeportugal.pt</a>
-          <a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">+351 935 718 678</a>
+          <a href="mailto:info@vapeportugal.pt">info@vapeportugal.pt</a>
+          <a href="tel:+351935718678">+351 935 718 678</a>
         </div>
       </div>
 
@@ -1078,56 +783,56 @@ Prazo standard: 3 a 5 dias úteis.</p>
           </button>
           <div class="cities-body" id="citiesBody">
             <ul class="footer-cities">
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Lisbon</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Porto</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Braga</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Coimbra</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Faro</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Aveiro</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Cascais</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Sintra</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Lagos</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Albufeira</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Évora</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Guimarães</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Viseu</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Setúbal</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Leiria</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Portimão</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Funchal</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Vila Nova de Gaia</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Ponta Delgada</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Bragança</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Viana do Castelo</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Covilhã</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Tomar</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Beja</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Elvas</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Tavira</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Olhão</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Peniche</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Nazaré</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Ericeira</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Torres Vedras</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Barcelos</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Chaves</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Espinho</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Matosinhos</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Amarante</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Santarém</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Castelo Branco</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Guarda</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Lamego</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Almada</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Oeiras</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Seixal</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Montijo</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Sesimbra</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Palmela</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Entroncamento</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Abrantes</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Figueira da Foz</a></li>
-              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal">Adalya em Peso da Régua</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Lisbon</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Porto</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Braga</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Coimbra</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Faro</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Aveiro</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Cascais</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Sintra</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Lagos</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Albufeira</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Évora</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Guimarães</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Viseu</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Setúbal</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Leiria</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Portimão</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Funchal</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Vila Nova de Gaia</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Ponta Delgada</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Bragança</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Viana do Castelo</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Covilhã</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Tomar</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Beja</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Elvas</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Tavira</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Olhão</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Peniche</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Nazaré</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Ericeira</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Torres Vedras</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Barcelos</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Chaves</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Espinho</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Matosinhos</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Amarante</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Santarém</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Castelo Branco</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Guarda</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Lamego</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Almada</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Oeiras</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Seixal</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Montijo</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Sesimbra</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Palmela</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Entroncamento</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Abrantes</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Figueira da Foz</a></li>
+              <li><a href="https://vapeportugal.pt/collections/adalya-vapes-descartaveis-portugal" target="_blank" rel="noopener noreferrer">Adalya em Peso da Régua</a></li>
             </ul>
           </div>
         </div>

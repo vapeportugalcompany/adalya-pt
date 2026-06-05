@@ -100,7 +100,7 @@ if (menuButton && mobileMenu) {
   button.addEventListener("click", () => {
     open = !open;
     extras.forEach((card) => card.classList.toggle("hidden", !open));
-    button.textContent = open ? "Ver menos" : "Ver más";
+    button.textContent = open ? "Ver menos" : "Ver mais";
   });
 })();
 
